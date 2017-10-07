@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './index.css'
 const Login = () => {
     return (
-        <div>
+        <div className="login">
             login
         </div>
     );

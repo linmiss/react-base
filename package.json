@@ -93,6 +93,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "proxy": "http://rapapi.org/mockjs/22372"
+  }
 }

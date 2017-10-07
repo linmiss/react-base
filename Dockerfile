@@ -8,8 +8,7 @@ WORKDIR /usr/src/app
 
 COPY ["package.json", "npm-shrinkwrap.json*", "./"]
 
-RUN npm install --production --silent && mv node_modules ../ && \
-    npm run build
+RUN npm install --production --silent && mv node_modules ../ 
 
 COPY . .
 
